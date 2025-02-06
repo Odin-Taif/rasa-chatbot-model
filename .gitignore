@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+rasa_env/
+.env
+.venv/
+*.pyc
+*.pyo
+__pycache__/
+*.log
+logs/
+
+# Rasa Model & Training Data Cache
+models/
+data/.nlu.json
+data/.stories.json
+data/.rules.json
+
+# Rasa Temporary Files
+.rasa/
+.results/
+.cache/
+debug.log
+
+# System Files (macOS, Linux, Windows)
+.DS_Store
+Thumbs.db
