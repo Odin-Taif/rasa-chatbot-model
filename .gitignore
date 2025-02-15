@@ -24,3 +24,6 @@ debug.log
 # System Files (macOS, Linux, Windows)
 .DS_Store
 Thumbs.db
+
+#tests
+tests/
